@@ -1,0 +1,114 @@
+body {
+    background-color: #303030;
+    color: #ffff00;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#Main {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#Title {
+    font-size: 36px;
+    color: #ff0000;
+    margin: 0;
+}
+
+#AccessPort {
+    margin-top: 20px;
+}
+
+#AccessPort label {
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+#AccessPort input[type="text"] {
+    background-color: #ff00ff;
+    color: #ffff00;
+    font-size: 18px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#ConnectButton {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ConnectButton:hover {
+    background-color: #ff3333;
+}
+
+#RoomID {
+    font-size: 24px;
+    color: #7d00e3;
+    margin-top: 20px;
+}
+
+#Chat {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Message {
+    font-size: 18px;
+    color: #ff0000;
+    margin: 5px 0;
+}
+
+#MessageLabel {
+    font-size: 18px;
+    color: #001eff;
+    margin-top: 10px;
+}
+
+#ComposedMessage {
+    background-color: #2e2e2e;
+    color: #ffff00;
+    font-size: 18px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+#SendMessage {
+    background-color: #ff0000;
+    color: #ffff00;
+    font-size: 18px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#SendMessage:hover {
+    background-color: #ff3333;
+}: 1px solid #ccc;
+
+.hidden {
+    display: none;
+}
